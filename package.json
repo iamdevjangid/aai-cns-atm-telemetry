@@ -1,0 +1,32 @@
+{
+  "name": "aai-cns-atm-telemetry",
+  "version": "1.0.0",
+  "description": "Airports Authority of India (AAI) CNS/ATM Radar Telemetry & Multicast Stream Segregation Engine | EUROCONTROL ASTERIX Cat 048/034 Binary Decoder, Mode S SSR/PSR Tracker & Redundant Dual-Homed LAN Stream Segregator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test \"dist/tests/*.test.js\"",
+    "benchmark": "node dist/tests/benchmark.js"
+  },
+  "keywords": [
+    "asterix-cat048",
+    "asterix-cat034",
+    "radar-telemetry",
+    "air-traffic-management",
+    "cns-atm",
+    "udp-multicast",
+    "avionics",
+    "secondary-surveillance-radar",
+    "mode-s",
+    "wgs84",
+    "distributed-systems",
+    "stream-processing"
+  ],
+  "author": "Dev Jangid <https://github.com/Dev-5678>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
